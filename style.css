@@ -1,4 +1,5 @@
 #animatedBanner {
   width: 1000px;
   height: 500px;
+  background: #000 url(img/clouds-mf.jpg);
 }
