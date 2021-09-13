@@ -4,3 +4,16 @@
   background: #000 url(img/clouds-mf.jpg);
   margin: 10vh auto 0;
 }
+#topDoor {
+  position: absolute;
+  height: 250px;
+}
+#bottomDoor {
+  position: absolute;
+}
+#ironMan {
+  position: absolute;
+}
+#text {
+  position: absolute;
+}
