@@ -3,6 +3,7 @@
   height: 500px;
   background: #000 url(img/clouds-mf.jpg);
   margin: 10vh auto 0;
+  overflow: hidden;
 }
 #topDoor {
   position: absolute;
@@ -19,7 +20,7 @@
   margin-top: 250px;
   animation: bottomOpen 1s ease 1s 1 forwards;
 }
-#ironMan {
+#plane {
   position: absolute;
   opacity: 0;
   height: 50px;
@@ -29,8 +30,9 @@
 #text {
   position: absolute;
   opacity: 0;
-  margin: 250px 0 0 700px;
-  animation: moveUp 1s ease 1s 1 forwards;
+  margin: 500px 0 0 700px;
+  animation: moveUp 1s ease 3s 1 forwards;
+  color: #022576;
 }
 
 @keyframes topOpen {
@@ -62,5 +64,19 @@
     opacity: 1;
     height: 220px;
     margin: 250px 0px 0px 600px;
+  }
+}
+
+@keyframes moveUp {
+  0% {
+    opacity: 0;
+    margin-top: 500px;
+    margin-left: 200px;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 150px;
+    margin-left: 50px;
+    font-size: 122px;
   }
 }
