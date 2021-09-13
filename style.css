@@ -7,7 +7,7 @@
 #topDoor {
   position: absolute;
   height: 250px;
-  background: url(img/metal.jpg) no-repeat;
+  background: url(img/metal.jpg) no-repeat center bottom;
 }
 #bottomDoor {
   position: absolute;
