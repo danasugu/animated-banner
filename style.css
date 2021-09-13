@@ -9,7 +9,7 @@
   width: 1000px;
   height: 250px;
   background: url(img/metal.jpg) no-repeat center bottom;
-  animation:topOpen1s ease 1s 1 forwards;
+  animation: topOpen 1s ease 1s 1 forwards;
 }
 #bottomDoor {
   position: absolute;
@@ -17,7 +17,7 @@
   height: 250px;
   background: url(img/metal.jpg) no-repeat center top;
   margin-top: 250px;
-   animation:topOpen1s ease 1s 1 forwards;
+  animation: bottomOpen 1s ease 1s 1 forwards;
 }
 #ironMan {
   position: absolute;
