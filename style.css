@@ -6,16 +6,27 @@
 }
 #topDoor {
   position: absolute;
+  width: 1000px;
   height: 250px;
   background: url(img/metal.jpg) no-repeat center bottom;
+  animation:topOpen1s ease 1s 1 forwards;
 }
 #bottomDoor {
   position: absolute;
+  width: 1000px;
   height: 250px;
+  background: url(img/metal.jpg) no-repeat center top;
+  margin-top: 250px;
+   animation:topOpen1s ease 1s 1 forwards;
 }
 #ironMan {
   position: absolute;
+  opacity: 0;
+  height: 50px;
+  margin: 250px 0px 0px 600px;
 }
 #text {
   position: absolute;
+  opacity: 0;
+  margin: 250px 0 0 700px;
 }
